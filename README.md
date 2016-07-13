@@ -2,7 +2,7 @@
 
 Generate an appveyor.yml file to the cwd or specified directory. Install globally and run with generate's CLI, or use as a component in your own generator.
 
-## Table of Contents
+You might also be interested in [generate-travis](https://github.com/generate/generate-travis).
 
 ## What is generate?
 

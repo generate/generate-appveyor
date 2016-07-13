@@ -46,6 +46,7 @@
       "gulp-format-md"
     ],
     "related": {
+      "highlight": "generate-travis",
       "list": [
         "generate",
         "generate-file",
