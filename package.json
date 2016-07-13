@@ -9,6 +9,12 @@
     "url": "https://github.com/generate/generate-appveyor/issues"
   },
   "license": "MIT",
+  "files": [
+    "generator.js",
+    "index.js",
+    "templates"
+  ],
+  "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
   },
