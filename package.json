@@ -1,0 +1,59 @@
+{
+  "name": "generate-appveyor",
+  "description": "Generate an appveyor.yml file to the cwd or specified directory. Install globally and run with generate's CLI, or use as a component in your own generator.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/generate/generate-appveyor",
+  "author": "Brian Woodward (https://github.com/doowb)",
+  "repository": "generate/generate-appveyor",
+  "bugs": {
+    "url": "https://github.com/generate/generate-appveyor/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "is-valid-app": "^0.2.0"
+  },
+  "devDependencies": {
+    "delete": "^0.3.2",
+    "generate": "^0.9.0",
+    "gulp-format-md": "^0.1.9",
+    "mocha": "^2.5.3",
+    "npm-install-global": "^0.1.2"
+  },
+  "keywords": [
+    "appveyor",
+    "generate",
+    "generate-generator"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "generator",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "generate",
+        "generate-file",
+        "generate-git",
+        "generate-travis"
+      ]
+    },
+    "reflinks": [
+      "generate",
+      "verb",
+      "verb-readme-generator"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
